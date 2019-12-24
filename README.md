@@ -11,18 +11,18 @@
 ## 🍱 개발환경
 ---
 
-#### OS
-- windows10
-#### Tool
-- visual studio code
-- git
-#### skill
-- html
-- css
-- javascript
-#### library
-- cytoscape
-- webpack
+- OS
+    - windows10
+- Tool
+    - visual studio code
+    - git
+- skill
+    - html
+    - css
+    - javascript
+- library
+    - cytoscape
+    - webpack
 
 ## 🚲 제작 과정
 ---
