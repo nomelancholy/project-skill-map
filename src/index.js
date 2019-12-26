@@ -132,7 +132,7 @@ var cy = cytoscape({
             selector: 'node',
             style: {
                 'background-color': '#666',
-                'label': 'data(id)'
+                'label': 'data(label)'
             }
         },
 
@@ -140,9 +140,10 @@ var cy = cytoscape({
             selector: 'edge',
             style: {
                 'width': 3,
+                'curve-style': 'bezier',
                 'line-color': '#ccc',
-                'target-arrow-color': '#ccc',
-                'target-arrow-shape': 'triangle'
+                'source-arrow-color': '#ccc',
+                'source-arrow-shape': 'triangle'
             }
         }
     ],
