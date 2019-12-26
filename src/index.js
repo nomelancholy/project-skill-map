@@ -115,7 +115,7 @@ const data = [ // list of graph elements to start with
     }
 ];
 // 아래는 공식 사이트에 올라와 있는 예제 코드입니다
-var cy = cytoscape({
+const cy = cytoscape({
 
     container: document.getElementById('cy'), // container to render in
 
@@ -148,5 +148,12 @@ var cy = cytoscape({
         gravityRangeCompound: 1.5,
         fit: true,
         tile: true
+    }
+});
+
+cy.on('tap', function (e) {
+    const url = e.target.data('url')
+    if (url && url !== '') {
+        window.open(url);
     }
 });
