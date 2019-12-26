@@ -114,7 +114,21 @@ const data = [ // list of graph elements to start with
         data: { id: 'STUDY-webpackBuild->STUDY-jsBrowser', source: 'STUDY-jsBrowser', target: 'STUDY-webpackBuild' }
     }
 ];
-// 아래는 공식 사이트에 올라와 있는 예제 코드입니다
+
+const cy_for_rank = cytoscape({
+    elements: data
+});
+// rank를 활용하기 위해 data만 입력한 cytoscape 객체입니다
+
+const pageRank = cy_for_rank.elements().pageRank();
+// elements들의 rank들입니다.
+
+const nodeMaxSize = 50;
+const nodeMinSize = 5;
+const fontMaxSize = 8;
+const fontMinSize = 5;
+// 추후 마우스 인/아웃 시에도 활용해야 하니 node와 font의 최대값/최소값은 변수로 빼줍니다
+
 const cy = cytoscape({
 
     container: document.getElementById('cy'), // container to render in
@@ -126,7 +140,16 @@ const cy = cytoscape({
             selector: 'node',
             style: {
                 'background-color': '#666',
-                'label': 'data(label)'
+                'label': 'data(label)',
+                'width': function (ele) {
+                    return nodeMaxSize *  pageRank.rank('#' + ele.id())  + nodeMinSize;
+                },
+                'height': function (ele) {
+                    return nodeMaxSize *  pageRank.rank('#' + ele.id()) + nodeMinSize;
+                },
+                'font-size': function (ele) {
+                    return fontMaxSize *   pageRank.rank('#' + ele.id()) + fontMinSize;
+                }
             }
         },
 
