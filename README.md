@@ -26,5 +26,6 @@
 
 ## 🚲 제작 과정
 ---
+### 데이터 구성
 
 [github 프로젝트](https://github.com/users/nomelancholy/projects/4)
