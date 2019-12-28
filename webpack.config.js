@@ -38,6 +38,21 @@ module.exports = {
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader,'css-loader']
+      },
+      {
+        test: /\.json$/,
+        type: "javascript/auto",
+        loader: "file-loader",
+        options: {
+          name: "model/[name].[ext]"
+        },
+        include: [
+          path.resolve(__dirname, "./model")
+        ]
+      },
+      {
+        test:/\.ico$/,
+        loader:"file-loader?name=[name].[ext]",
       }
     ]
   },
