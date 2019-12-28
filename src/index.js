@@ -140,11 +140,11 @@ const arrowActiveScale = 1.2;
 const dimColor = '#dfe4ea';
 const edgeColor = '#ced6e0';
 const nodeColor = '#57606f';
-const nodeActiveColor = '#ffa502';
+const nodeActiveColor = '#0367A6';
 
-const successorColor = '#ff6348';
+const successorColor = '#023859';
 // 상위 node & edge color
-const predecessorsColor = '#1e90ff';
+const predecessorsColor = '#66A8D1';
 // 하위 node & edge color
 
 const cy = cytoscape({
@@ -216,7 +216,7 @@ function setFocus(target_element, successorColor, predecessorsColor, edgeWidth, 
         e.style('background-color', successorColor);
         e.style('line-color', successorColor);
         e.style('source-arrow-color', successorColor);
-        setOpacityElement(e, 0.5);
+        setOpacityElement(e, 0.7);
     }
     );
     target_element.predecessors().each(function (e) {
@@ -284,4 +284,13 @@ cy.on('tapstart mouseover', 'node', function (e) {
 
 cy.on('tapend mouseout', 'node', function (e) {
     setResetFocus(e.cy);
+});
+
+let resizeTimer;
+
+window.addEventListener('resize', function () {
+    this.clearTimeout(resizeTimer);
+    resizeTimer = this.setTimeout(function(){
+        cy.fit();
+    },200);
 });

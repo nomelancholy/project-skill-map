@@ -26,6 +26,6 @@
 
 ## 🚲 제작 과정
 ---
-### 데이터 구성
+[포스팅](https://github.com/nomelancholy/js-project-driven-study-mind-map/projects/1)
 
 [github 프로젝트](https://github.com/users/nomelancholy/projects/4)
