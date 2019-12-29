@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://nomelancholy.github.io/js-project-driven-study-mind-map",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +31,7 @@
     "webpack-dev-server": "^3.10.1"
   },
   "devDependencies": {
-    "file-loader": "^5.0.2"
+    "file-loader": "^5.0.2",
+    "gh-pages": "^2.1.1"
   }
 }
