@@ -105,5 +105,12 @@
     },
     {
         "data": { "id": "STUDY-webpackBuild->STUDY-jsBrowser", "source": "STUDY-jsBrowser", "target": "STUDY-webpackBuild" }
+    },
+    {
+        "data": {
+            "id": "PJ-moviep",
+            "url": "https://github.com/nomelancholy/pj-moviep/projects/2",
+            "label": "moviep 프로젝트"
+        }
     }
 ]
