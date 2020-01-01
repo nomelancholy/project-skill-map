@@ -112,5 +112,33 @@
             "url": "https://github.com/nomelancholy/pj-moviep/projects/2",
             "label": "moviep 프로젝트"
         }
+    },
+    {
+        "data": {
+            "id": "PJ-sasGems",
+            "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
+            "label": "삼성전자 SAS G-EMS 프로젝트"
+        }
+    },
+    {
+        "data": {
+            "id": "PJ-cop",
+            "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
+            "label": "현대자동차 CoP 프로젝트"
+        }
+    },
+    {
+        "data": {
+            "id": "PJ-bncMro",
+            "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
+            "label": "한국비앤시 MRO 구축 프로젝트"
+        }
+    },
+    {
+        "data": {
+            "id": "PJ-seatcalculator",
+            "url": "https://github.com/nomelancholy/pj-seatcalculator",
+            "label": "seat calculator 프로젝트"
+        }
     }
 ]
