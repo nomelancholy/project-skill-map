@@ -108,31 +108,244 @@
     },
     {
         "data": {
-            "id": "PJ-moviep",
-            "url": "https://github.com/nomelancholy/pj-moviep/projects/2",
-            "label": "moviep 프로젝트"
-        }
-    },
-    {
-        "data": {
             "id": "PJ-sasGems",
-            "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
+            "url": "https://docs.google.com/presentation/d/13Uv-GDmkdGpw2LWPZBMo1XxPuitafX5DZrMSPOByvn4/edit?usp=sharing",
             "label": "삼성전자 SAS G-EMS 프로젝트"
         }
     },
     {
         "data": {
+            "id": "ISSUE-asModify",
+            "url": "",
+            "label": "AS 시스템 변경"
+        }
+    },
+    {
+        "data": { "id": "PJ-sasGems->ISSUE-asModify", "source": "ISSUE-asModify", "target": "PJ-sasGems" }
+    },
+    {
+        "data": {
+            "id": "STUDY-procedure",
+            "url": "",
+            "label": "Procedure 란?"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-asModify->STUDY-procedure", "source": "STUDY-procedure", "target": "ISSUE-asModify" }
+    },
+    {
+        "data": {
+            "id": "STUDY-asynchronous",
+            "url": "",
+            "label": "동기와 비동기의 차이"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-asModifys->STUDY-asynchronous", "source": "STUDY-asynchronous", "target": "ISSUE-asModify" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-reportModify",
+            "url": "",
+            "label": "보고서 시스템 변경"
+        }
+    },
+    {
+        "data": { "id": "PJ-sasGems->ISSUE-reportModify", "source": "ISSUE-reportModify", "target": "PJ-sasGems" }
+    },
+    {
+        "data": {
+            "id": "STUDY-jqwidgetChart",
+            "url": "",
+            "label": "jQwidget Chart 활용"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-reportModify->STUDY-jqwidgetChart", "source": "STUDY-jqwidgetChart", "target": "ISSUE-reportModify" }
+    },
+    {
+        "data": {
+            "id": "STUDY-i18n",
+            "url": "",
+            "label": "i18n 활용"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-reportModify->STUDY-i18n", "source": "STUDY-i18n", "target": "ISSUE-reportModify" }
+    },
+    {
+        "data": {
             "id": "PJ-cop",
-            "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
+            "url": "https://docs.google.com/presentation/d/1nRzRt5gqEXm6q8xMqY2TkdYT8eHHtyBxG3db8-xqKCU/edit?usp=sharing",
             "label": "현대자동차 CoP 프로젝트"
         }
     },
     {
         "data": {
+            "id": "ISSUE-copMain",
+            "url": "",
+            "label": "메인 페이지 개발"
+        }
+    },
+    {
+        "data": { "id": "PJ-cop->ISSUE-copMain", "source": "ISSUE-copMain", "target": "PJ-cop" }
+    },
+    {
+        "data": {
+            "id": "STUDY-inExist",
+            "url": "",
+            "label": "IN과 EXIST의 차이"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-copMain->STUDY-inExist", "source": "STUDY-inExist", "target": "ISSUE-copMain" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-copLectureRoom",
+            "url": "",
+            "label": "강의실 & 파일함 페이지 개발"
+        }
+    },
+    {
+        "data": { "id": "PJ-cop->ISSUE-copLectureRoom", "source": "ISSUE-copLectureRoom", "target": "PJ-cop" }
+    },
+    {
+        "data": {
+            "id": "STUDY-hierarchicalQuery",
+            "url": "",
+            "label": "START WITH ... CONNECT BY"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-copLectureRoom->STUDY-hierarchicalQuery", "source": "STUDY-hierarchicalQuery", "target": "ISSUE-copLectureRoom" }
+    },
+    {
+        "data": {
+            "id": "STUDY-LineBreak",
+            "url": "",
+            "label": "문자 줄바꿈 처리"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-copLectureRoom->STUDY-LineBreak", "source": "STUDY-LineBreak", "target": "ISSUE-copLectureRoom" }
+    },
+    {
+        "data": {
+            "id": "STUDY-datePicker",
+            "url": "",
+            "label": "Datepiecker 활용"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-copLectureRoom->STUDY-datePicker", "source": "STUDY-datePicker", "target": "ISSUE-copLectureRoom" }
+    },
+    {
+        "data": {
+            "id": "STUDY-jsonStringify",
+            "url": "",
+            "label": "JSON.stringify()"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-copLectureRoom->STUDY-jsonStringify", "source": "STUDY-jsonStringify", "target": "ISSUE-copLectureRoom" }
+    },
+    {
+        "data": {
+            "id": "STUDY-clobResultmap",
+            "url": "",
+            "label": "resultMap 활용한 CLOB 처리"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-copLectureRoom->STUDY-clobResultmap", "source": "STUDY-clobResultmap", "target": "ISSUE-copLectureRoom" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-copAdmin",
+            "url": "",
+            "label": "관리자 페이지 개발"
+        }
+    },
+    {
+        "data": { "id": "PJ-cop->ISSUE-copAdmin", "source": "ISSUE-copAdmin", "target": "PJ-cop" }
+    },
+    {
+        "data": {
+            "id": "STUDY-ajaxPopup",
+            "url": "",
+            "label": "ajax 활용한 팝업 처리"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-copAdmin->STUDY-ajaxPopup", "source": "STUDY-ajaxPopup", "target": "ISSUE-copAdmin" }
+    },
+    {
+        "data": {
             "id": "PJ-bncMro",
-            "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
+            "url": "https://docs.google.com/presentation/d/1T_2V86CmNqGJkzwMqvLlr4uUWLjxfzIZqTfbbfBd0PI/edit?usp=sharing",
             "label": "한국비앤시 MRO 구축 프로젝트"
         }
+    },
+    {
+        "data": {
+            "id": "ISSUE-budget",
+            "url": "",
+            "label": "예산 관련 페이지 개발"
+        }
+    },
+    {
+        "data": { "id": "PJ-bncMro->ISSUE-budget", "source": "ISSUE-budget", "target": "PJ-bncMro" }
+    },
+    {
+        "data": {
+            "id": "STUDY-jqgrid",
+            "url": "",
+            "label": "jqGrid 활용"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-budget->STUDY-jqgrid", "source": "STUDY-jqgrid", "target": "ISSUE-budget" }
+    },
+    {
+        "data": {
+            "id": "STUDY-miplatform",
+            "url": "",
+            "label": "miplatform 활용"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-budget->STUDY-miplatform", "source": "STUDY-miplatform", "target": "ISSUE-budget" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-secureCoding",
+            "url": "",
+            "label": "시큐어 코딩"
+        }
+    },
+    {
+        "data": { "id": "PJ-bncMro->ISSUE-secureCoding", "source": "ISSUE-secureCoding", "target": "PJ-bncMro" }
+    },
+    {
+        "data": {
+            "id": "STUDY-sha256salt",
+            "url": "",
+            "label": "salt 활용한 패스워드 저장"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-secureCoding->STUDY-sha256salt", "source": "STUDY-sha256salt", "target": "ISSUE-secureCoding" }
+    },
+    {
+        "data": {
+            "id": "STUDY-masking",
+            "url": "",
+            "label": "개인정보 마스킹 처리"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-secureCoding->STUDY-masking", "source": "STUDY-masking", "target": "ISSUE-secureCoding" }
     },
     {
         "data": {
@@ -140,5 +353,72 @@
             "url": "https://github.com/nomelancholy/pj-seatcalculator",
             "label": "seat calculator 프로젝트"
         }
+    },
+    {
+        "data": {
+            "id": "STUDY-reactTesting",
+            "url": "",
+            "label": "React Testing 학습"
+        }
+    },
+    {
+        "data": { "id": "PJ-seatcalculator->STUDY-reactTesting", "source": "STUDY-reactTesting", "target": "PJ-seatcalculator" }
+    },
+    {
+        "data": {
+            "id": "STUDY-contextApi",
+            "url": "",
+            "label": "React context-api 학습"
+        }
+    },
+    {
+        "data": { "id": "PJ-seatcalculator->STUDY-contextApi", "source": "STUDY-contextApi", "target": "PJ-seatcalculator" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-dotenv",
+            "url": "",
+            "label": ".env 미적용"
+        }
+    },
+    {
+        "data": { "id": "STUDY-contextApi->ISSUE-dotenv", "source": "ISSUE-dotenv", "target": "STUDY-contextApi" }
+    },
+    {
+        "data": {
+            "id": "STUDY-hooks",
+            "url": "",
+            "label": "React hooks 학습"
+        }
+    },
+    {
+        "data": { "id": "PJ-seatcalculator->STUDY-hooks", "source": "STUDY-hooks", "target": "PJ-seatcalculator" }
+    },
+    {
+        "data": {
+            "id": "PJ-boostCourse",
+            "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
+            "label": "네이버 예약사이트 클론 코딩 프로젝트"
+        }
+    },
+    {
+        "data": {
+            "id": "ISSUE-jsEventMiss",
+            "url": "",
+            "label": "javscript Event 중복 실행"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->ISSUE-jsEventMiss", "source": "ISSUE-jsEventMiss", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "STUDY-jsEventDelegation",
+            "url": "",
+            "label": "Event Delegation 학습"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-jsEventMiss->STUDY-jsEventDelegation", "source": "STUDY-jsEventDelegation", "target": "ISSUE-jsEventMiss" }
     }
 ]
