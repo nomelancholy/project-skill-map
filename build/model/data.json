@@ -420,5 +420,185 @@
     },
     {
         "data": { "id": "ISSUE-jsEventMiss->STUDY-jsEventDelegation", "source": "STUDY-jsEventDelegation", "target": "ISSUE-jsEventMiss" }
+    },
+    {
+        "data": {
+            "id": "STUDY-infinitySlide",
+            "url": "",
+            "label": "무한 슬라이드 구현"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->STUDY-infinitySlide", "source": "STUDY-infinitySlide", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-springJson",
+            "url": "",
+            "label": "spirng에서 json 다루기"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->ISSUE-springJson", "source": "ISSUE-springJson", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "STUDY-jakcsonLibrary",
+            "url": "",
+            "label": "jakcsonLibrary 활용"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-springJson->STUDY-jakcsonLibrary", "source": "STUDY-jakcsonLibrary", "target": "ISSUE-springJson" }
+    },
+    {
+        "data": {
+            "id": "STUDY-springParam",
+            "url": "",
+            "label": "Spring에서 parameter 받는 법"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-springJson->STUDY-springParam", "source": "STUDY-springParam", "target": "ISSUE-springJson" }
+    },
+    {
+        "data": {
+            "id": "STUDY-restController",
+            "url": "",
+            "label": "Rest Controller 활용"
+        }
+    },
+    {
+        "data": { "id": "STUDY-springParam->STUDY-restController", "source": "STUDY-restController", "target": "STUDY-springParam" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-login",
+            "url": "",
+            "label": "로그인 기능 구현"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->ISSUE-login", "source": "ISSUE-login", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "STUDY-session",
+            "url": "",
+            "label": "세션 학습"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-login->STUDY-session", "source": "STUDY-session", "target": "ISSUE-login" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-javaDate",
+            "url": "",
+            "label": "java 날짜 데이터"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->ISSUE-javaDate", "source": "ISSUE-javaDate", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "STUDY-javaTime",
+            "url": "",
+            "label": "java.time 패키지"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-javaDate->STUDY-javaTime", "source": "STUDY-javaTime", "target": "ISSUE-javaDate" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-jsThis",
+            "url": "",
+            "label": "js 생성자 패턴 구현 중 this 오작동"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->ISSUE-jsThis", "source": "ISSUE-jsThis", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "STUDY-jsThisBind",
+            "url": "",
+            "label": "js this와 bind 학습"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-jsThis->STUDY-jsThisBind", "source": "STUDY-jsThisBind", "target": "ISSUE-jsThis" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-logging",
+            "url": "",
+            "label": "Logging 구현"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->ISSUE-logging", "source": "ISSUE-logging", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "STUDY-slf4jLogback",
+            "url": "",
+            "label": "SLF4J와 Logback 학습"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-logging->STUDY-slf4jLogback", "source": "STUDY-slf4jLogback", "target": "ISSUE-logging" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-springFile",
+            "url": "",
+            "label": "스프링 파일 처리"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->ISSUE-springFile", "source": "ISSUE-springFile", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "Study-imgAjax",
+            "url": "",
+            "label": "이미지 ajax 전송"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-springFile->Study-imgAjax", "source": "Study-imgAjax", "target": "ISSUE-springFile" }
+    },
+    {
+        "data": {
+            "id": "Study-springFileSave",
+            "url": "",
+            "label": "스프링 파일 저장"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-springFile->Study-springFileSave", "source": "Study-springFileSave", "target": "ISSUE-springFile" }
+    },
+    {
+        "data": {
+            "id": "Study-springFileDown",
+            "url": "",
+            "label": "스프링 파일 다운로드"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-springFile->Study-springFileDown", "source": "Study-springFileDown", "target": "ISSUE-springFile" }
+    },
+    {
+        "data": {
+            "id": "Study-springFileResponse",
+            "url": "",
+            "label": "저장한 파일 응답"
+        }
+    },
+    {
+        "data": { "id": "Study-springFileSave->Study-springFileResponse", "source": "Study-springFileResponse", "target": "Study-springFileSave" }
     }
 ]
