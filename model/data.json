@@ -396,6 +396,16 @@
     },
     {
         "data": {
+            "id": "STUDY-coreJs",
+            "url": "",
+            "label": "코어 자바스크립트 정독"
+        }
+    },
+    {
+        "data": { "id": "PJ-seatcalculator->STUDY-coreJs", "source": "STUDY-coreJs", "target": "PJ-seatcalculator" }
+    },
+    {
+        "data": {
             "id": "PJ-boostCourse",
             "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
             "label": "네이버 예약사이트 클론 코딩 프로젝트"
