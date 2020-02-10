@@ -8,7 +8,7 @@
 개인적으로 공부한 것들을 위와 같이 정리하면 좋을 것 같았습니다. 
 그래서 해당 라이브러리가 [cytoscape](https://js.cytoscape.org/#getting-started)라는 것을 확인 후 이를 활용해 비슷한 사이트를 개발을 해봤습니다.
 
-### 접속 URI : https://nomelancholy.github.io/js-project-driven-study-mind-map/
+### 접속 URI : https://nomelancholy.github.io/pj-project-driven-study-mind-map/
 
 ## 🍱 개발환경
 ---
