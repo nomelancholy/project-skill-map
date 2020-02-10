@@ -617,5 +617,15 @@
             "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
             "label": "기업은행 인사시스템 리뉴얼 프로젝트"
         }
+    },
+    {
+        "data": {
+            "id": "ISSUE-rxjs",
+            "url": "",
+            "label": "rxjs"
+        }
+    },
+    {
+        "data": { "id": "PJ-ibkHr->ISSUE-springFile", "source": "ISSUE-rxjs", "target": "PJ-ibkHr" }
     }
 ]
