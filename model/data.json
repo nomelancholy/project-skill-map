@@ -627,5 +627,35 @@
     },
     {
         "data": { "id": "PJ-ibkHr->ISSUE-rxjs", "source": "ISSUE-rxjs", "target": "PJ-ibkHr" }
-    }
+    },
+    {
+        "data": {
+            "id": "ISSUE-lombok",
+            "url": "",
+            "label": "lombok"
+        }
+    },
+    {
+         "data": { "id": "PJ-ibkHr->ISSUE-lombok", "source": "ISSUE-lombok", "target": "PJ-ibkHr" }
+    },
+    {
+         "data": {
+             "id": "ISSUE-JPA",
+             "url": "",
+             "label": "JPA"
+         }
+     },
+     {
+         "data": { "id": "PJ-ibkHr->ISSUE-JPA", "source": "ISSUE-JPA", "target": "PJ-ibkHr" }
+     },
+     {
+         "data": {
+             "id": "ISSUE-JAVA-Stream-API",
+             "url": "",
+             "label": "JAVA Stream API"
+         }
+     },
+     {
+         "data": { "id": "ISSUE-JPA->ISSUE-JAVA-Stream-API", "source": "ISSUE-JAVA-Stream-API", "target": "ISSUE-JPA" }
+     }
 ]
