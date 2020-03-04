@@ -620,13 +620,13 @@
     },
     {
         "data": {
-            "id": "ISSUE-rxjs",
+            "id": "ISSUE-react-hook",
             "url": "",
-            "label": "rxjs"
+            "label": "react-hook"
         }
     },
     {
-        "data": { "id": "PJ-ibkHr->ISSUE-rxjs", "source": "ISSUE-rxjs", "target": "PJ-ibkHr" }
+        "data": { "id": "PJ-ibkHr->ISSUE-react-hook", "source": "ISSUE-react-hook", "target": "PJ-ibkHr" }
     },
     {
         "data": {
