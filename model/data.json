@@ -657,5 +657,15 @@
      },
      {
          "data": { "id": "ISSUE-JPA->ISSUE-JAVA-Stream-API", "source": "ISSUE-JAVA-Stream-API", "target": "ISSUE-JPA" }
-     }
+     },
+     {
+        "data": {
+            "id": "ISSUE-typescript",
+            "url": "",
+            "label": "typescript"
+        }
+    },
+    {
+        "data": { "id": "PJ-ibkHr->ISSUE-typescript", "source": "ISSUE-typescript", "target": "PJ-ibkHr" }
+    }
 ]
