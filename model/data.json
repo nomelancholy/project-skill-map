@@ -630,6 +630,16 @@
     },
     {
         "data": {
+            "id": "ISSUE-mobx",
+            "url": "",
+            "label": "mobx"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-react-hook->ISSUE-mobx", "source": "ISSUE-mobx", "target": "ISSUE-react-hook" }
+    },
+    {
+        "data": {
             "id": "ISSUE-lombok",
             "url": "",
             "label": "lombok"
