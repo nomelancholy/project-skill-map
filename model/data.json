@@ -656,7 +656,7 @@
          }
      },
      {
-         "data": { "id": "PJ-ibkHr->ISSUE-JAVA-Stream-API", "source": "PJ-ibkHr", "target": "ISSUE-JPA" }
+         "data": { "id": "PJ-ibkHr->ISSUE-JAVA-Stream-API", "source": "ISSUE-JAVA-Stream-API", "target": "PJ-ibkHr" }
      },
      {
         "data": {
