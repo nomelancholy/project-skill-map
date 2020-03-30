@@ -630,6 +630,16 @@
     },
     {
         "data": {
+            "id": "ISSUE-mobx",
+            "url": "",
+            "label": "mobx"
+        }
+    },
+    {
+        "data": { "id": "ISSUE-react-hook->ISSUE-mobx", "source": "ISSUE-mobx", "target": "ISSUE-react-hook" }
+    },
+    {
+        "data": {
             "id": "ISSUE-lombok",
             "url": "",
             "label": "lombok"
@@ -667,5 +677,15 @@
     },
     {
         "data": { "id": "PJ-ibkHr->ISSUE-typescript", "source": "ISSUE-typescript", "target": "PJ-ibkHr" }
+    },
+    {
+        "data": {
+            "id": "ISSUE-axios",
+            "url": "",
+            "label": "axios"
+        }
+    },
+    {
+        "data": { "id": "PJ-ibkHr->ISSUE-axios", "source": "ISSUE-axios", "target": "PJ-ibkHr" }
     }
 ]
