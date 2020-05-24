@@ -694,5 +694,12 @@
             "url": "https://icloudhospital.com/",
             "label": "Cloud Hospital"
         }
+    },
+    {
+        "data": {
+            "id": "PJ-computer-science",
+            "url": "https://www.knou.ac.kr/",
+            "label": "방송통신대학교 컴퓨터 과학과"
+        }
     }
 ]
