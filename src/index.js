@@ -23,12 +23,14 @@ fetch('./model/data.json', { mode: 'no-cors' })
         const pageRank = cy_for_rank.elements().pageRank();
         // elements들의 rank들입니다.
 
+        console.log('pageRank', pageRank)
+
         const nodeMaxSize = 50;
         const nodeMinSize = 5;
-        const nodeActiveSize = 28;
-        const fontMaxSize = 8;
-        const fontMinSize = 5;
-        const fontActiveSize = 7;
+        const nodeActiveSize = 20;
+        const fontMaxSize = 10;
+        const fontMinSize =8;
+        const fontActiveSize = 10;
         // node & font 크기 값
 
         const edgeWidth = '2px';
@@ -60,15 +62,16 @@ fetch('./model/data.json', { mode: 'no-cors' })
                         'background-color': nodeColor,
                         'label': 'data(label)',
                         'width': function (ele) {
-                            return nodeMaxSize * pageRank.rank('#' + ele.id()) + nodeMinSize;
+                            return nodeMaxSize * (pageRank.rank('#' + ele.id()) * 5) + nodeMinSize;
                         },
                         'height': function (ele) {
-                            return nodeMaxSize * pageRank.rank('#' + ele.id()) + nodeMinSize;
+                            return nodeMaxSize * (pageRank.rank('#' + ele.id()) * 5 ) + nodeMinSize;
                         },
                         'font-size': function (ele) {
                             return fontMaxSize * pageRank.rank('#' + ele.id()) + fontMinSize;
                         },
-                        'color': nodeColor
+                        'color': nodeColor,
+                        'text-wrap': 'wrap'
                     }
                 },
 
@@ -149,8 +152,8 @@ fetch('./model/data.json', { mode: 'no-cors' })
             target_cy.nodes().forEach(function (target) {
                 target.style('background-color', nodeColor);
                 var rank = pageRank.rank(target);
-                target.style('width', nodeMaxSize * rank + nodeMinSize);
-                target.style('height', nodeMaxSize * rank + nodeMinSize);
+                target.style('width', nodeMaxSize * ( rank * 5 )+ nodeMinSize);
+                target.style('height', nodeMaxSize * ( rank * 5 ) + nodeMinSize);
                 target.style('font-size', fontMaxSize * rank + fontMinSize);
                 target.style('color', nodeColor);
                 target.style('opacity', 1);

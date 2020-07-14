@@ -2,12 +2,13 @@
     {
         "data": {
             "id": "PJ-mindMap",
-            "label": "Project-Skill-Map"
+            "label": "Project-Skill-Map\n(19.12. ~ 19.12)"
         }
     },
     {
         "data": {
             "id": "SKILL-mindMap-webpack",
+            "url":"https://webpack.js.org/",
             "label": "webpack"
         }
     },
@@ -17,6 +18,7 @@
     {
         "data": {
             "id": "SKILL-mindMap-cytoscape",
+            "url":"https://cytoscape.org/",
             "label": "cytoscape"
         }
     },
@@ -26,6 +28,7 @@
     {
         "data": {
             "id": "SKILL-mindMap-javascript",
+            "url":"https://developer.mozilla.org/ko/docs/Web/JavaScript",
             "label": "Javascript"
         }
     },
@@ -35,306 +38,478 @@
     {
         "data": {
             "id": "PJ-sasGems",
-            "label": "삼성전자 SAS G-EMS 프로젝트"
+            "label": "Samsung SAS G-EMS project\n(18.07 ~ 19.02)"
         }
     },
     {
         "data": {
-            "id": "SKILL-asModify",
-            "url": "",
-            "label": "AS 시스템 변경"
+            "id": "SKILL-sasGems-spring",
+            "url": "https://spring.io/",
+            "label": "Spring"
         }
     },
     {
-        "data": { "id": "PJ-sasGems->SKILL-asModify", "source": "SKILL-asModify", "target": "PJ-sasGems" }
+        "data": { "id": "PJ-sasGems->SKILL-sasGems-spring", "source": "SKILL-sasGems-spring", "target": "PJ-sasGems" }
     },
     {
         "data": {
-            "id": "SKILL-procedure",
-            "url": "",
-            "label": "Procedure 란?"
+            "id": "SKILL-sasGems-java",
+            "url": "https://www.oracle.com/kr/java/",
+            "label": "Java"
         }
     },
     {
-        "data": { "id": "SKILL-asModify->SKILL-procedure", "source": "SKILL-procedure", "target": "SKILL-asModify" }
+        "data": { "id": "SKILL-sasGems-spring->SKILL-sasGems-java", "source": "SKILL-sasGems-java", "target": "SKILL-sasGems-spring" }
     },
     {
         "data": {
-            "id": "SKILL-asynchronous",
-            "url": "",
-            "label": "동기와 비동기의 차이"
+            "id": "SKILL-sasGems-maven",
+            "url": "https://www.oracle.com/kr/java/",
+            "label": "Maven"
         }
     },
     {
-        "data": { "id": "SKILL-asModifys->SKILL-asynchronous", "source": "SKILL-asynchronous", "target": "SKILL-asModify" }
+        "data": { "id": "SKILL-sasGems-spring->SKILL-sasGems-maven", "source": "SKILL-sasGems-maven", "target": "SKILL-sasGems-spring" }
     },
     {
         "data": {
-            "id": "SKILL-reportModify",
-            "url": "",
-            "label": "보고서 시스템 변경"
+            "id": "SKILL-sasGems-myBatis",
+            "url": "https://mybatis.org/mybatis-3/ko/index.html",
+            "label": "myBatis"
         }
     },
     {
-        "data": { "id": "PJ-sasGems->SKILL-reportModify", "source": "SKILL-reportModify", "target": "PJ-sasGems" }
+        "data": { "id": "SKILL-sasGems-spring->SKILL-sasGems-myBatis", "source": "SKILL-sasGems-myBatis", "target": "SKILL-sasGems-spring" }
     },
     {
         "data": {
-            "id": "SKILL-jqwidgetChart",
-            "url": "",
-            "label": "jQwidget Chart 활용"
+            "id": "SKILL-sasGems-oracle",
+            "url": "https://www.oracle.com/kr/database/technologies/",
+            "label": "Oracle"
         }
     },
     {
-        "data": { "id": "SKILL-reportModify->SKILL-jqwidgetChart", "source": "SKILL-jqwidgetChart", "target": "SKILL-reportModify" }
+        "data": { "id": "SKILL-sasGems-myBatis->SKILL-sasGems-oracle", "source": "SKILL-sasGems-oracle", "target": "SKILL-sasGems-myBatis" }
+    },
+    {
+        "data": {
+            "id": "SKILL-sasGems-plSql",
+            "url": "https://www.oracle.com/kr/database/technologies/appdev/plsql.html",
+            "label": "PL/SQL"
+        }
+    },
+    {
+        "data": { "id": "SKILL-sasGems-oracle->SKILL-sasGems-plSql", "source": "SKILL-sasGems-plSql", "target": "SKILL-sasGems-oracle" }
+    },
+    {
+        "data": {
+            "id": "SKILL-sasGems-html",
+            "url": "https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started",
+            "label": "HTML"
+        }
+    },
+    {
+        "data": { "id": "PJ-sasGems->SKILL-sasGems-html", "source": "SKILL-sasGems-html", "target": "PJ-sasGems" }
+    },
+    {
+        "data": {
+            "id": "SKILL-sasGems-css",
+            "url": "https://developer.mozilla.org/ko/docs/Web/CSS",
+            "label": "CSS"
+        }
+    },
+    {
+        "data": { "id": "PJ-sasGems->SKILL-sasGems-css", "source": "SKILL-sasGems-css", "target": "PJ-sasGems" }
+    },
+    {
+        "data": {
+            "id": "SKILL-sasGems-jQuery",
+            "url": "https://jquery.com/",
+            "label": "jQuery"
+        }
+    },
+    {
+        "data": { "id": "PJ-sasGems->SKILL-sasGems-jQuery", "source": "SKILL-sasGems-jQuery", "target": "PJ-sasGems" }
+    },
+    {
+        "data": {
+            "id": "SKILL-sasGems-jQWidgets",
+            "url": "https://www.jqwidgets.com/",
+            "label": "jQWidgets"
+        }
+    },
+    {
+        "data": { "id": "SKILL-sasGems-jQuery->SKILL-sasGems-jQWidgets", "source": "SKILL-sasGems-jQWidgets", "target": "SKILL-sasGems-jQuery" }
+    },
+    {
+        "data": {
+            "id": "SKILL-sasGems-ajax",
+            "url": "https://api.jquery.com/category/ajax/",
+            "label": "Ajax"
+        }
+    },
+    {
+        "data": { "id": "SKILL-sasGems-jQuery->SKILL-sasGems-ajax", "source": "SKILL-sasGems-ajax", "target": "SKILL-sasGems-jQuery" }
     },
     {
         "data": {
             "id": "SKILL-i18n",
-            "url": "",
-            "label": "i18n 활용"
+            "url": "https://mvnrepository.com/tags/i18n",
+            "label": "i18n"
         }
     },
     {
-        "data": { "id": "SKILL-reportModify->SKILL-i18n", "source": "SKILL-i18n", "target": "SKILL-reportModify" }
+        "data": { "id": "PJ-sasGems->SKILL-i18n", "source": "SKILL-i18n", "target": "PJ-sasGems" }
     },
     {
         "data": {
             "id": "PJ-cop",
             "url": "https://docs.google.com/presentation/d/1nRzRt5gqEXm6q8xMqY2TkdYT8eHHtyBxG3db8-xqKCU/edit?usp=sharing",
-            "label": "현대자동차 CoP 프로젝트"
+            "label": "Hyndai CoP project\n(19.02 ~ 19.04)"
         }
     },
     {
         "data": {
-            "id": "SKILL-copMain",
+            "id": "SKILL-cop-spring",
+            "url": "https://spring.io/",
+            "label": "Spring"
+        }
+    },
+    {
+        "data": { "id": "PJ-cop->SKILL-cop-spring", "source": "SKILL-cop-spring", "target": "PJ-cop" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-java",
+            "url": "https://www.oracle.com/kr/java/",
+            "label": "Java"
+        }
+    },
+    {
+        "data": { "id": "SKILL-cop-spring->SKILL-cop-java", "source": "SKILL-cop-java", "target": "SKILL-cop-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-maven",
+            "url": "https://www.oracle.com/kr/java/",
+            "label": "Maven"
+        }
+    },
+    {
+        "data": { "id": "SKILL-cop-spring->SKILL-cop-maven", "source": "SKILL-cop-maven", "target": "SKILL-cop-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-Jackson",
+            "url": "https://mvnrepository.com/search?q=Jackson",
+            "label": "Jackson"
+        }
+    },
+    {
+        "data": { "id": "SKILL-cop-maven->SKILL-cop-Jackson", "source": "SKILL-cop-Jackson", "target": "SKILL-cop-maven" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-myBatis",
+            "url": "https://mybatis.org/mybatis-3/ko/index.html",
+            "label": "myBatis"
+        }
+    },
+    {
+        "data": { "id": "SKILL-cop-spring->SKILL-cop-myBatis", "source": "SKILL-cop-myBatis", "target": "SKILL-cop-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-oracle",
+            "url": "https://www.oracle.com/kr/database/technologies/",
+            "label": "Oracle"
+        }
+    },
+    {
+        "data": { "id": "SKILL-cop-myBatis->SKILL-cop-oracle", "source": "SKILL-cop-oracle", "target": "SKILL-cop-myBatis" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-html",
+            "url": "https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started",
+            "label": "HTML"
+        }
+    },
+    {
+        "data": { "id": "PJ-cop->SKILL-cop-html", "source": "SKILL-cop-html", "target": "PJ-cop" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-css",
+            "url": "https://developer.mozilla.org/ko/docs/Web/CSS",
+            "label": "CSS"
+        }
+    },
+    {
+        "data": { "id": "PJ-cop->SKILL-cop-css", "source": "SKILL-cop-css", "target": "PJ-cop" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-jQuery",
+            "url": "https://jquery.com/",
+            "label": "jQuery"
+        }
+    },
+    {
+        "data": { "id": "PJ-cop->SKILL-cop-jQuery", "source": "SKILL-cop-jQuery", "target": "PJ-cop" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-jQWidgets",
+            "url": "https://www.jqwidgets.com/",
+            "label": "jQWidgets"
+        }
+    },
+    {
+        "data": { "id": "SKILL-cop-jQuery->SKILL-cop-jQWidgets", "source": "SKILL-cop-jQWidgets", "target": "SKILL-cop-jQuery" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-datepicker",
+            "url": "https://jqueryui.com/datepicker/",
+            "label": "datepicker"
+        }
+    },
+    {
+        "data": { "id": "SKILL-cop-jQuery->SKILL-cop-datepicker", "source": "SKILL-cop-datepicker", "target": "SKILL-cop-jQuery" }
+    },
+    {
+        "data": {
+            "id": "SKILL-cop-ajax",
+            "url": "https://api.jquery.com/category/ajax/",
+            "label": "Ajax"
+        }
+    },
+    {
+        "data": { "id": "SKILL-cop-jQuery->SKILL-cop-ajax", "source": "SKILL-cop-ajax", "target": "SKILL-cop-jQuery" }
+    },
+    {
+        "data": {
+            "id": "PJ-kbncMro",
+            "label": "kbnc MRO project\n(19.04 ~ 19.08)"
+        }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-spring",
+            "url": "https://spring.io/",
+            "label": "Spring"
+        }
+    },
+    {
+        "data": { "id": "PJ-kbncMro->SKILL-kbncMro-spring", "source": "SKILL-kbncMro-spring", "target": "PJ-kbncMro" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-java",
+            "url": "https://www.oracle.com/kr/java/",
+            "label": "Java"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-spring->SKILL-kbncMro-java", "source": "SKILL-kbncMro-java", "target": "SKILL-kbncMro-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-sha256",
+            "url": "https://www.baeldung.com/sha-256-hashing-java",
+            "label": "SHA256"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-java->SKILL-kbncMro-sha256", "source": "SKILL-kbncMro-sha256", "target": "SKILL-kbncMro-java" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-maven",
+            "url": "https://www.oracle.com/kr/java/",
+            "label": "Maven"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-spring->SKILL-kbncMro-maven", "source": "SKILL-kbncMro-maven", "target": "SKILL-kbncMro-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-Jackson",
+            "url": "https://mvnrepository.com/search?q=Jackson",
+            "label": "Jackson"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-maven->SKILL-kbncMro-Jackson", "source": "SKILL-kbncMro-Jackson", "target": "SKILL-kbncMro-maven" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-myBatis",
+            "url": "https://mybatis.org/mybatis-3/ko/index.html",
+            "label": "myBatis"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-spring->SKILL-kbncMro-myBatis", "source": "SKILL-kbncMro-myBatis", "target": "SKILL-kbncMro-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-oracle",
+            "url": "https://www.oracle.com/kr/database/technologies/",
+            "label": "Oracle"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-myBatis->SKILL-kbncMro-oracle", "source": "SKILL-kbncMro-oracle", "target": "SKILL-kbncMro-myBatis" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-html",
+            "url": "https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started",
+            "label": "HTML"
+        }
+    },
+    {
+        "data": { "id": "PJ-kbncMro->SKILL-kbncMro-html", "source": "SKILL-kbncMro-html", "target": "PJ-kbncMro" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-css",
+            "url": "https://developer.mozilla.org/ko/docs/Web/CSS",
+            "label": "CSS"
+        }
+    },
+    {
+        "data": { "id": "PJ-kbncMro->SKILL-kbncMro-css", "source": "SKILL-kbncMro-css", "target": "PJ-kbncMro" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-javascript",
+            "url": "https://developer.mozilla.org/ko/docs/Web/JavaScript",
+            "label": "JavaScript"
+        }
+    },
+    {
+        "data": { "id": "PJ-kbncMro->SKILL-kbncMro-javascript", "source": "SKILL-kbncMro-javascript", "target": "PJ-kbncMro" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-regexp",
+            "url": "https://regexr.com/",
+            "label": "Regular Expression"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-javascript->SKILL-kbncMro-regexp", "source": "SKILL-kbncMro-regexp", "target": "SKILL-kbncMro-javascript" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-jQuery",
+            "url": "https://jquery.com/",
+            "label": "jQuery"
+        }
+    },
+    {
+        "data": { "id": "PJ-kbncMro->SKILL-kbncMro-jQuery", "source": "SKILL-kbncMro-jQuery", "target": "PJ-kbncMro" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-jQWidgets",
+            "url": "https://www.jqwidgets.com/",
+            "label": "jQWidgets"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-jQuery->SKILL-kbncMro-jQWidgets", "source": "SKILL-kbncMro-jQWidgets", "target": "SKILL-kbncMro-jQuery" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-datepicker",
+            "url": "https://jqueryui.com/datepicker/",
+            "label": "datepicker"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-jQuery->SKILL-kbncMro-datepicker", "source": "SKILL-kbncMro-datepicker", "target": "SKILL-kbncMro-jQuery" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-ajax",
+            "url": "https://api.jquery.com/category/ajax/",
+            "label": "Ajax"
+        }
+    },
+    {
+        "data": { "id": "SKILL-kbncMro-jQuery->SKILL-kbncMro-ajax", "source": "SKILL-kbncMro-ajax", "target": "SKILL-kbncMro-jQuery" }
+    },
+    {
+        "data": {
+            "id": "SKILL-kbncMro-miplatform",
             "url": "",
-            "label": "메인 페이지 개발"
+            "label": "miplatform"
         }
     },
     {
-        "data": { "id": "PJ-cop->SKILL-copMain", "source": "SKILL-copMain", "target": "PJ-cop" }
-    },
-    {
-        "data": {
-            "id": "SKILL-inExist",
-            "url": "",
-            "label": "IN과 EXIST의 차이"
-        }
-    },
-    {
-        "data": { "id": "SKILL-copMain->SKILL-inExist", "source": "SKILL-inExist", "target": "SKILL-copMain" }
-    },
-    {
-        "data": {
-            "id": "SKILL-copLectureRoom",
-            "url": "",
-            "label": "강의실 & 파일함 페이지 개발"
-        }
-    },
-    {
-        "data": { "id": "PJ-cop->SKILL-copLectureRoom", "source": "SKILL-copLectureRoom", "target": "PJ-cop" }
-    },
-    {
-        "data": {
-            "id": "SKILL-hierarchicalQuery",
-            "url": "",
-            "label": "START WITH ... CONNECT BY"
-        }
-    },
-    {
-        "data": { "id": "SKILL-copLectureRoom->SKILL-hierarchicalQuery", "source": "SKILL-hierarchicalQuery", "target": "SKILL-copLectureRoom" }
-    },
-    {
-        "data": {
-            "id": "SKILL-LineBreak",
-            "url": "",
-            "label": "문자 줄바꿈 처리"
-        }
-    },
-    {
-        "data": { "id": "SKILL-copLectureRoom->SKILL-LineBreak", "source": "SKILL-LineBreak", "target": "SKILL-copLectureRoom" }
-    },
-    {
-        "data": {
-            "id": "SKILL-datePicker",
-            "url": "",
-            "label": "Datepiecker 활용"
-        }
-    },
-    {
-        "data": { "id": "SKILL-copLectureRoom->SKILL-datePicker", "source": "SKILL-datePicker", "target": "SKILL-copLectureRoom" }
-    },
-    {
-        "data": {
-            "id": "SKILL-jsonStringify",
-            "url": "",
-            "label": "JSON.stringify()"
-        }
-    },
-    {
-        "data": { "id": "SKILL-copLectureRoom->SKILL-jsonStringify", "source": "SKILL-jsonStringify", "target": "SKILL-copLectureRoom" }
-    },
-    {
-        "data": {
-            "id": "SKILL-clobResultmap",
-            "url": "",
-            "label": "resultMap 활용한 CLOB 처리"
-        }
-    },
-    {
-        "data": { "id": "SKILL-copLectureRoom->SKILL-clobResultmap", "source": "SKILL-clobResultmap", "target": "SKILL-copLectureRoom" }
-    },
-    {
-        "data": {
-            "id": "SKILL-copAdmin",
-            "url": "",
-            "label": "관리자 페이지 개발"
-        }
-    },
-    {
-        "data": { "id": "PJ-cop->SKILL-copAdmin", "source": "SKILL-copAdmin", "target": "PJ-cop" }
-    },
-    {
-        "data": {
-            "id": "SKILL-ajaxPopup",
-            "url": "",
-            "label": "ajax 활용한 팝업 처리"
-        }
-    },
-    {
-        "data": { "id": "SKILL-copAdmin->SKILL-ajaxPopup", "source": "SKILL-ajaxPopup", "target": "SKILL-copAdmin" }
-    },
-    {
-        "data": {
-            "id": "PJ-bncMro",
-            "url": "https://docs.google.com/presentation/d/1T_2V86CmNqGJkzwMqvLlr4uUWLjxfzIZqTfbbfBd0PI/edit?usp=sharing",
-            "label": "한국비앤시 MRO 구축 프로젝트"
-        }
-    },
-    {
-        "data": {
-            "id": "SKILL-budget",
-            "url": "",
-            "label": "예산 관련 페이지 개발"
-        }
-    },
-    {
-        "data": { "id": "PJ-bncMro->SKILL-budget", "source": "SKILL-budget", "target": "PJ-bncMro" }
-    },
-    {
-        "data": {
-            "id": "SKILL-jqgrid",
-            "url": "",
-            "label": "jqGrid 활용"
-        }
-    },
-    {
-        "data": { "id": "SKILL-budget->SKILL-jqgrid", "source": "SKILL-jqgrid", "target": "SKILL-budget" }
-    },
-    {
-        "data": {
-            "id": "SKILL-miplatform",
-            "url": "",
-            "label": "miplatform 활용"
-        }
-    },
-    {
-        "data": { "id": "SKILL-budget->SKILL-miplatform", "source": "SKILL-miplatform", "target": "SKILL-budget" }
-    },
-    {
-        "data": {
-            "id": "SKILL-secureCoding",
-            "url": "",
-            "label": "시큐어 코딩"
-        }
-    },
-    {
-        "data": { "id": "PJ-bncMro->SKILL-secureCoding", "source": "SKILL-secureCoding", "target": "PJ-bncMro" }
-    },
-    {
-        "data": {
-            "id": "SKILL-sha256salt",
-            "url": "",
-            "label": "salt 활용한 패스워드 저장"
-        }
-    },
-    {
-        "data": { "id": "SKILL-secureCoding->SKILL-sha256salt", "source": "SKILL-sha256salt", "target": "SKILL-secureCoding" }
-    },
-    {
-        "data": {
-            "id": "SKILL-masking",
-            "url": "",
-            "label": "개인정보 마스킹 처리"
-        }
-    },
-    {
-        "data": { "id": "SKILL-secureCoding->SKILL-masking", "source": "SKILL-masking", "target": "SKILL-secureCoding" }
-    },
-    {
-        "data": {
-            "id": "PJ-seatcalculator",
-            "url": "https://github.com/nomelancholy/pj-seatcalculator",
-            "label": "seat calculator 프로젝트"
-        }
-    },
-    {
-        "data": {
-            "id": "SKILL-reactTesting",
-            "url": "",
-            "label": "React Testing 학습"
-        }
-    },
-    {
-        "data": { "id": "PJ-seatcalculator->SKILL-reactTesting", "source": "SKILL-reactTesting", "target": "PJ-seatcalculator" }
-    },
-    {
-        "data": {
-            "id": "SKILL-contextApi",
-            "url": "",
-            "label": "React context-api 학습"
-        }
-    },
-    {
-        "data": { "id": "PJ-seatcalculator->SKILL-contextApi", "source": "SKILL-contextApi", "target": "PJ-seatcalculator" }
-    },
-    {
-        "data": {
-            "id": "SKILL-dotenv",
-            "url": "",
-            "label": ".env 미적용"
-        }
-    },
-    {
-        "data": { "id": "SKILL-contextApi->SKILL-dotenv", "source": "SKILL-dotenv", "target": "SKILL-contextApi" }
-    },
-    {
-        "data": {
-            "id": "SKILL-hooks",
-            "url": "",
-            "label": "React hooks 학습"
-        }
-    },
-    {
-        "data": { "id": "PJ-seatcalculator->SKILL-hooks", "source": "SKILL-hooks", "target": "PJ-seatcalculator" }
-    },
-    {
-        "data": {
-            "id": "SKILL-coreJs",
-            "url": "",
-            "label": "코어 자바스크립트 정독"
-        }
-    },
-    {
-        "data": { "id": "PJ-seatcalculator->SKILL-coreJs", "source": "SKILL-coreJs", "target": "PJ-seatcalculator" }
+        "data": { "id": "PJ-kbncMro->SKILL-kbncMro-miplatform", "source": "SKILL-kbncMro-miplatform", "target": "PJ-kbncMro" }
     },
     {
         "data": {
             "id": "PJ-boostCourse",
-            "url": "https://www.rocketpunch.com/@ceb3dd1534ca4f23/jobhunt",
-            "label": "네이버 예약사이트 클론 코딩 프로젝트"
+            "url": "https://docs.google.com/presentation/d/18OUaH0O0xltEhQheRo9ROkCCxMLbCBjr3WJOzqrRW2o/edit#slide=id.p",
+            "label": "naver reservation site clone"
         }
+    },
+    {
+        "data": {
+            "id": "SKILL-boostCourse-spring",
+            "url": "https://spring.io/",
+            "label": "Spring"
+        }
+    },
+    {
+        "data": { "id": "PJ-boostCourse->SKILL-boostCourse-spring", "source": "SKILL-boostCourse-spring", "target": "PJ-boostCourse" }
+    },
+    {
+        "data": {
+            "id": "SKILL-boostCourse-java",
+            "url": "https://www.oracle.com/kr/java/",
+            "label": "Java"
+        }
+    },
+    {
+        "data": { "id": "SKILL-boostCourse-spring->SKILL-boostCourse-java", "source": "SKILL-boostCourse-java", "target": "SKILL-boostCourse-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-boostCourse-maven",
+            "url": "https://www.oracle.com/kr/java/",
+            "label": "Maven"
+        }
+    },
+    {
+        "data": { "id": "SKILL-boostCourse-spring->SKILL-boostCourse-maven", "source": "SKILL-boostCourse-maven", "target": "SKILL-boostCourse-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-boostCourse-jdbc",
+            "url": "https://mybatis.org/mybatis-3/ko/index.html",
+            "label": "JDBC"
+        }
+    },
+    {
+        "data": { "id": "SKILL-boostCourse-spring->SKILL-boostCourse-jdbc", "source": "SKILL-boostCourse-jdbc", "target": "SKILL-boostCourse-spring" }
+    },
+    {
+        "data": {
+            "id": "SKILL-boostCourse-mySQL",
+            "url": "https://www.oracle.com/kr/database/technologies/",
+            "label": "MySQL"
+        }
+    },
+    {
+        "data": { "id": "SKILL-boostCourse-myBatis->SKILL-boostCourse-oracle", "source": "SKILL-boostCourse-oracle", "target": "SKILL-boostCourse-myBatis" }
     },
     {
         "data": {
