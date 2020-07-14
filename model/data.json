@@ -2,176 +2,101 @@
     {
         "data": {
             "id": "PJ-mindMap",
-            "url": "https://github.com/nomelancholy/js-project-driven-study-mind-map/projects/1?add_cards_query=is%3Aopen",
-            "label": "Project Driven Study Map"
+            "label": "Project-Skill-Map"
         }
     },
     {
         "data": {
-            "id": "ISSUE-packageJson",
-            "url": "https://www.google.co.kr/search?newwindow=1&safe=off&sxsrf=ACYBGNQPahfceN-IrrIMqFcBxt0bBJxcog%3A1577373548670&source=hp&ei=bM8EXp3aJoKpoASW2InwAg&q=no+such+file+or+directory%2C+open+%27C%3A%5Cdev%5Cworkspace%5Cjs-seomal-clone%5Cpackage.json%27&oq=no+such+file+or+directory%2C+open+%27C%3A%5Cdev%5Cworkspace%5Cjs-seomal-clone%5Cpackage.json%27&gs_l=psy-ab.3...7437.7437..8911...1.0..0.95.95.1......0....2j1..gws-wiz.pzIrSS2UT84&ved=0ahUKEwidwK2wztPmAhWCFIgKHRZsAi4Q4dUDCAY&uact=5",
-            "label": "package.json 에러"
+            "id": "SKILL-mindMap-webpack",
+            "label": "webpack"
         }
     },
     {
-        "data": { "id": "PJ-mindMap->ISSUE-packageJson", "source": "ISSUE-packageJson", "target": "PJ-mindMap" }
+        "data": { "id": "PJ-mindMap->SKILL-mindMap-webpack", "source": "SKILL-mindMap-webpack", "target": "PJ-mindMap" }
     },
     {
         "data": {
-            "id": "STUDY-npmInit",
-            "url": "https://stackoverflow.com/questions/9484829/npm-cant-find-package-json",
-            "label": "npm 패키지 설치 순서 숙지"
+            "id": "SKILL-mindMap-cytoscape",
+            "label": "cytoscape"
         }
     },
     {
-        "data": { "id": "ISSUE-packageJson->STUDY-npmInit", "source": "STUDY-npmInit", "target": "ISSUE-packageJson" }
+        "data": { "id": "PJ-mindMap->SKILL-mindMap-cytoscape", "source": "SKILL-mindMap-cytoscape", "target": "PJ-mindMap" }
     },
     {
         "data": {
-            "id": "ISSUE-outsideModule",
-            "url": "https://www.google.co.kr/search?newwindow=1&safe=off&sxsrf=ACYBGNT3L0sknJfq3DO75H55Q5VQJODk-Q%3A1577373778729&ei=UtAEXvGVLMLh-AbOm7CYDA&q=Uncaught+SyntaxError%3A+Cannot+use+import+statement+outside+a+modul&oq=Uncaught+SyntaxError%3A+Cannot+use+import+statement+outside+a+modul&gs_l=psy-ab.3..35i39j0l2j0i203l7.513620.513620..514369...0.0..0.167.374.1j2......0....2j1..gws-wiz.gwgT-rwsfWw&ved=0ahUKEwjxhomez9PmAhXCMN4KHc4NDMMQ4dUDCAs&uact=5",
-            "label": "script module 에러"
+            "id": "SKILL-mindMap-javascript",
+            "label": "Javascript"
         }
     },
     {
-        "data": { "id": "PJ-mindmap->ISSUE-outsideModule", "source": "ISSUE-outsideModule", "target": "PJ-mindMap" }
-    },
-    {
-        "data": {
-            "id": "STUDY-scriptModule",
-            "url": "https://velog.io/@takeknowledge/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AA%A8%EB%93%88-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%9A%94%EC%95%BD-lwk4drjnni",
-            "label": "js module 학습"
-        }
-    },
-    {
-        "data": { "id": "ISSUE-outsideModule->STUDY-scriptModule", "source": "STUDY-scriptModule", "target": "ISSUE-outsideModule" }
-    },
-    {
-        "data": {
-            "id": "STUDY-scriptPosition",
-            "url": "https://velog.io/@takeknowledge/script-%ED%83%9C%EA%B7%B8%EB%8A%94-%EC%96%B4%EB%94%94%EC%97%90-%EC%9C%84%EC%B9%98%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C%EC%9A%94",
-            "label": "script 태그 위치 학습"
-        }
-    },
-    {
-        "data": { "id": "ISSUE-outsideModule->STUDY-scriptPosition", "source": "STUDY-scriptPosition", "target": "ISSUE-outsideModule" }
-    },
-    {
-        "data": {
-            "id": "ISSUE-localCORS",
-            "url": "https://www.google.co.kr/search?newwindow=1&safe=off&sxsrf=ACYBGNSmKE1wN_fBQuRtT5pwz0hZ5JqldQ%3A1577374293889&ei=VdIEXtP7NY-lmAX82Z7oDg&q=Access+to+script+at+%27file%3A%2F%2F%2FC%3A%2Fdev%2Fworkspace%2Fjs-seomal-clone%2Fjs%2Fcyto.js%27+from+origin+%27null%27+has+been+blocked+by+CORS+policy%3A+Cross+origin+requests+are+only+supported+for+protocol+schemes%3A+http%2C+data%2C+chrome%2C+chrome-extension%2C+https.&oq=Access+to+script+at+%27file%3A%2F%2F%2FC%3A%2Fdev%2Fworkspace%2Fjs-seomal-clone%2Fjs%2Fcyto.js%27+from+origin+%27null%27+has+been+blocked+by+CORS+policy%3A+Cross+origin+requests+are+only+supported+for+protocol+schemes%3A+http%2C+data%2C+chrome%2C+chrome-extension%2C+https.&gs_l=psy-ab.3..35i39j0i20i263l2j0i203l7.516217.516217..516645...0.0..0.177.281.0j2......0....2j1..gws-wiz.JE3_EPpI5o4&ved=0ahUKEwiT-tuT0dPmAhWPEqYKHfysB-0Q4dUDCAs&uact=5",
-            "label": "local 실행시 CORS 에러"
-        }
-    },
-    {
-        "data": { "id": "PJ-mindmap->ISSUE-localCORS", "source": "ISSUE-localCORS", "target": "PJ-mindMap" }
-    },
-    {
-        "data": {
-            "id": "STUDY-localCORS",
-            "url": "https://velog.io/@takeknowledge/%EB%A1%9C%EC%BB%AC%EC%97%90%EC%84%9C-CORS-policy-%EA%B4%80%EB%A0%A8-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-3gk4gyhreu",
-            "label": "CORS & SOP 학습"
-        }
-    },
-    {
-        "data": { "id": "ISSUE-localCORS->STUDY-localCORS", "source": "STUDY-localCORS", "target": "ISSUE-localCORS" }
-    },
-    {
-        "data": {
-            "id": "ISSUE-moduleImport",
-            "url": "https://goenning.net/2017/07/21/how-to-avoid-relative-path-hell-javascript-typescript-projects/",
-            "label": "module import 경로 에러"
-        }
-    },
-    {
-        "data": { "id": "PJ-mindmap->ISSUE-moduleImport", "source": "ISSUE-moduleImport", "target": "PJ-mindMap" }
-    },
-    {
-        "data": {
-            "id": "STUDY-webpackBuild",
-            "url": "https://github.com/nomelancholy/webpack-build-practice",
-            "label": "webpack build 실습"
-        }
-    },
-    {
-        "data": { "id": "ISSUE-moduleImport->STUDY-webpackBuild", "source": "STUDY-webpackBuild", "target": "ISSUE-moduleImport" }
-    },
-    {
-        "data": {
-            "id": "STUDY-jsBrowser",
-            "url": "https://github.com/nomelancholy/webpack-build-practice",
-            "label": "js 엔진과 runtime 학습"
-        }
-    },
-    {
-        "data": { "id": "STUDY-webpackBuild->STUDY-jsBrowser", "source": "STUDY-jsBrowser", "target": "STUDY-webpackBuild" }
+        "data": { "id": "PJ-mindMap->SKILL-javascript", "source": "SKILL-mindMap-javascript", "target": "PJ-mindMap" }
     },
     {
         "data": {
             "id": "PJ-sasGems",
-            "url": "https://docs.google.com/presentation/d/13Uv-GDmkdGpw2LWPZBMo1XxPuitafX5DZrMSPOByvn4/edit?usp=sharing",
             "label": "삼성전자 SAS G-EMS 프로젝트"
         }
     },
     {
         "data": {
-            "id": "ISSUE-asModify",
+            "id": "SKILL-asModify",
             "url": "",
             "label": "AS 시스템 변경"
         }
     },
     {
-        "data": { "id": "PJ-sasGems->ISSUE-asModify", "source": "ISSUE-asModify", "target": "PJ-sasGems" }
+        "data": { "id": "PJ-sasGems->SKILL-asModify", "source": "SKILL-asModify", "target": "PJ-sasGems" }
     },
     {
         "data": {
-            "id": "STUDY-procedure",
+            "id": "SKILL-procedure",
             "url": "",
             "label": "Procedure 란?"
         }
     },
     {
-        "data": { "id": "ISSUE-asModify->STUDY-procedure", "source": "STUDY-procedure", "target": "ISSUE-asModify" }
+        "data": { "id": "SKILL-asModify->SKILL-procedure", "source": "SKILL-procedure", "target": "SKILL-asModify" }
     },
     {
         "data": {
-            "id": "STUDY-asynchronous",
+            "id": "SKILL-asynchronous",
             "url": "",
             "label": "동기와 비동기의 차이"
         }
     },
     {
-        "data": { "id": "ISSUE-asModifys->STUDY-asynchronous", "source": "STUDY-asynchronous", "target": "ISSUE-asModify" }
+        "data": { "id": "SKILL-asModifys->SKILL-asynchronous", "source": "SKILL-asynchronous", "target": "SKILL-asModify" }
     },
     {
         "data": {
-            "id": "ISSUE-reportModify",
+            "id": "SKILL-reportModify",
             "url": "",
             "label": "보고서 시스템 변경"
         }
     },
     {
-        "data": { "id": "PJ-sasGems->ISSUE-reportModify", "source": "ISSUE-reportModify", "target": "PJ-sasGems" }
+        "data": { "id": "PJ-sasGems->SKILL-reportModify", "source": "SKILL-reportModify", "target": "PJ-sasGems" }
     },
     {
         "data": {
-            "id": "STUDY-jqwidgetChart",
+            "id": "SKILL-jqwidgetChart",
             "url": "",
             "label": "jQwidget Chart 활용"
         }
     },
     {
-        "data": { "id": "ISSUE-reportModify->STUDY-jqwidgetChart", "source": "STUDY-jqwidgetChart", "target": "ISSUE-reportModify" }
+        "data": { "id": "SKILL-reportModify->SKILL-jqwidgetChart", "source": "SKILL-jqwidgetChart", "target": "SKILL-reportModify" }
     },
     {
         "data": {
-            "id": "STUDY-i18n",
+            "id": "SKILL-i18n",
             "url": "",
             "label": "i18n 활용"
         }
     },
     {
-        "data": { "id": "ISSUE-reportModify->STUDY-i18n", "source": "STUDY-i18n", "target": "ISSUE-reportModify" }
+        "data": { "id": "SKILL-reportModify->SKILL-i18n", "source": "SKILL-i18n", "target": "SKILL-reportModify" }
     },
     {
         "data": {
@@ -182,103 +107,103 @@
     },
     {
         "data": {
-            "id": "ISSUE-copMain",
+            "id": "SKILL-copMain",
             "url": "",
             "label": "메인 페이지 개발"
         }
     },
     {
-        "data": { "id": "PJ-cop->ISSUE-copMain", "source": "ISSUE-copMain", "target": "PJ-cop" }
+        "data": { "id": "PJ-cop->SKILL-copMain", "source": "SKILL-copMain", "target": "PJ-cop" }
     },
     {
         "data": {
-            "id": "STUDY-inExist",
+            "id": "SKILL-inExist",
             "url": "",
             "label": "IN과 EXIST의 차이"
         }
     },
     {
-        "data": { "id": "ISSUE-copMain->STUDY-inExist", "source": "STUDY-inExist", "target": "ISSUE-copMain" }
+        "data": { "id": "SKILL-copMain->SKILL-inExist", "source": "SKILL-inExist", "target": "SKILL-copMain" }
     },
     {
         "data": {
-            "id": "ISSUE-copLectureRoom",
+            "id": "SKILL-copLectureRoom",
             "url": "",
             "label": "강의실 & 파일함 페이지 개발"
         }
     },
     {
-        "data": { "id": "PJ-cop->ISSUE-copLectureRoom", "source": "ISSUE-copLectureRoom", "target": "PJ-cop" }
+        "data": { "id": "PJ-cop->SKILL-copLectureRoom", "source": "SKILL-copLectureRoom", "target": "PJ-cop" }
     },
     {
         "data": {
-            "id": "STUDY-hierarchicalQuery",
+            "id": "SKILL-hierarchicalQuery",
             "url": "",
             "label": "START WITH ... CONNECT BY"
         }
     },
     {
-        "data": { "id": "ISSUE-copLectureRoom->STUDY-hierarchicalQuery", "source": "STUDY-hierarchicalQuery", "target": "ISSUE-copLectureRoom" }
+        "data": { "id": "SKILL-copLectureRoom->SKILL-hierarchicalQuery", "source": "SKILL-hierarchicalQuery", "target": "SKILL-copLectureRoom" }
     },
     {
         "data": {
-            "id": "STUDY-LineBreak",
+            "id": "SKILL-LineBreak",
             "url": "",
             "label": "문자 줄바꿈 처리"
         }
     },
     {
-        "data": { "id": "ISSUE-copLectureRoom->STUDY-LineBreak", "source": "STUDY-LineBreak", "target": "ISSUE-copLectureRoom" }
+        "data": { "id": "SKILL-copLectureRoom->SKILL-LineBreak", "source": "SKILL-LineBreak", "target": "SKILL-copLectureRoom" }
     },
     {
         "data": {
-            "id": "STUDY-datePicker",
+            "id": "SKILL-datePicker",
             "url": "",
             "label": "Datepiecker 활용"
         }
     },
     {
-        "data": { "id": "ISSUE-copLectureRoom->STUDY-datePicker", "source": "STUDY-datePicker", "target": "ISSUE-copLectureRoom" }
+        "data": { "id": "SKILL-copLectureRoom->SKILL-datePicker", "source": "SKILL-datePicker", "target": "SKILL-copLectureRoom" }
     },
     {
         "data": {
-            "id": "STUDY-jsonStringify",
+            "id": "SKILL-jsonStringify",
             "url": "",
             "label": "JSON.stringify()"
         }
     },
     {
-        "data": { "id": "ISSUE-copLectureRoom->STUDY-jsonStringify", "source": "STUDY-jsonStringify", "target": "ISSUE-copLectureRoom" }
+        "data": { "id": "SKILL-copLectureRoom->SKILL-jsonStringify", "source": "SKILL-jsonStringify", "target": "SKILL-copLectureRoom" }
     },
     {
         "data": {
-            "id": "STUDY-clobResultmap",
+            "id": "SKILL-clobResultmap",
             "url": "",
             "label": "resultMap 활용한 CLOB 처리"
         }
     },
     {
-        "data": { "id": "ISSUE-copLectureRoom->STUDY-clobResultmap", "source": "STUDY-clobResultmap", "target": "ISSUE-copLectureRoom" }
+        "data": { "id": "SKILL-copLectureRoom->SKILL-clobResultmap", "source": "SKILL-clobResultmap", "target": "SKILL-copLectureRoom" }
     },
     {
         "data": {
-            "id": "ISSUE-copAdmin",
+            "id": "SKILL-copAdmin",
             "url": "",
             "label": "관리자 페이지 개발"
         }
     },
     {
-        "data": { "id": "PJ-cop->ISSUE-copAdmin", "source": "ISSUE-copAdmin", "target": "PJ-cop" }
+        "data": { "id": "PJ-cop->SKILL-copAdmin", "source": "SKILL-copAdmin", "target": "PJ-cop" }
     },
     {
         "data": {
-            "id": "STUDY-ajaxPopup",
+            "id": "SKILL-ajaxPopup",
             "url": "",
             "label": "ajax 활용한 팝업 처리"
         }
     },
     {
-        "data": { "id": "ISSUE-copAdmin->STUDY-ajaxPopup", "source": "STUDY-ajaxPopup", "target": "ISSUE-copAdmin" }
+        "data": { "id": "SKILL-copAdmin->SKILL-ajaxPopup", "source": "SKILL-ajaxPopup", "target": "SKILL-copAdmin" }
     },
     {
         "data": {
@@ -289,63 +214,63 @@
     },
     {
         "data": {
-            "id": "ISSUE-budget",
+            "id": "SKILL-budget",
             "url": "",
             "label": "예산 관련 페이지 개발"
         }
     },
     {
-        "data": { "id": "PJ-bncMro->ISSUE-budget", "source": "ISSUE-budget", "target": "PJ-bncMro" }
+        "data": { "id": "PJ-bncMro->SKILL-budget", "source": "SKILL-budget", "target": "PJ-bncMro" }
     },
     {
         "data": {
-            "id": "STUDY-jqgrid",
+            "id": "SKILL-jqgrid",
             "url": "",
             "label": "jqGrid 활용"
         }
     },
     {
-        "data": { "id": "ISSUE-budget->STUDY-jqgrid", "source": "STUDY-jqgrid", "target": "ISSUE-budget" }
+        "data": { "id": "SKILL-budget->SKILL-jqgrid", "source": "SKILL-jqgrid", "target": "SKILL-budget" }
     },
     {
         "data": {
-            "id": "STUDY-miplatform",
+            "id": "SKILL-miplatform",
             "url": "",
             "label": "miplatform 활용"
         }
     },
     {
-        "data": { "id": "ISSUE-budget->STUDY-miplatform", "source": "STUDY-miplatform", "target": "ISSUE-budget" }
+        "data": { "id": "SKILL-budget->SKILL-miplatform", "source": "SKILL-miplatform", "target": "SKILL-budget" }
     },
     {
         "data": {
-            "id": "ISSUE-secureCoding",
+            "id": "SKILL-secureCoding",
             "url": "",
             "label": "시큐어 코딩"
         }
     },
     {
-        "data": { "id": "PJ-bncMro->ISSUE-secureCoding", "source": "ISSUE-secureCoding", "target": "PJ-bncMro" }
+        "data": { "id": "PJ-bncMro->SKILL-secureCoding", "source": "SKILL-secureCoding", "target": "PJ-bncMro" }
     },
     {
         "data": {
-            "id": "STUDY-sha256salt",
+            "id": "SKILL-sha256salt",
             "url": "",
             "label": "salt 활용한 패스워드 저장"
         }
     },
     {
-        "data": { "id": "ISSUE-secureCoding->STUDY-sha256salt", "source": "STUDY-sha256salt", "target": "ISSUE-secureCoding" }
+        "data": { "id": "SKILL-secureCoding->SKILL-sha256salt", "source": "SKILL-sha256salt", "target": "SKILL-secureCoding" }
     },
     {
         "data": {
-            "id": "STUDY-masking",
+            "id": "SKILL-masking",
             "url": "",
             "label": "개인정보 마스킹 처리"
         }
     },
     {
-        "data": { "id": "ISSUE-secureCoding->STUDY-masking", "source": "STUDY-masking", "target": "ISSUE-secureCoding" }
+        "data": { "id": "SKILL-secureCoding->SKILL-masking", "source": "SKILL-masking", "target": "SKILL-secureCoding" }
     },
     {
         "data": {
@@ -356,53 +281,53 @@
     },
     {
         "data": {
-            "id": "STUDY-reactTesting",
+            "id": "SKILL-reactTesting",
             "url": "",
             "label": "React Testing 학습"
         }
     },
     {
-        "data": { "id": "PJ-seatcalculator->STUDY-reactTesting", "source": "STUDY-reactTesting", "target": "PJ-seatcalculator" }
+        "data": { "id": "PJ-seatcalculator->SKILL-reactTesting", "source": "SKILL-reactTesting", "target": "PJ-seatcalculator" }
     },
     {
         "data": {
-            "id": "STUDY-contextApi",
+            "id": "SKILL-contextApi",
             "url": "",
             "label": "React context-api 학습"
         }
     },
     {
-        "data": { "id": "PJ-seatcalculator->STUDY-contextApi", "source": "STUDY-contextApi", "target": "PJ-seatcalculator" }
+        "data": { "id": "PJ-seatcalculator->SKILL-contextApi", "source": "SKILL-contextApi", "target": "PJ-seatcalculator" }
     },
     {
         "data": {
-            "id": "ISSUE-dotenv",
+            "id": "SKILL-dotenv",
             "url": "",
             "label": ".env 미적용"
         }
     },
     {
-        "data": { "id": "STUDY-contextApi->ISSUE-dotenv", "source": "ISSUE-dotenv", "target": "STUDY-contextApi" }
+        "data": { "id": "SKILL-contextApi->SKILL-dotenv", "source": "SKILL-dotenv", "target": "SKILL-contextApi" }
     },
     {
         "data": {
-            "id": "STUDY-hooks",
+            "id": "SKILL-hooks",
             "url": "",
             "label": "React hooks 학습"
         }
     },
     {
-        "data": { "id": "PJ-seatcalculator->STUDY-hooks", "source": "STUDY-hooks", "target": "PJ-seatcalculator" }
+        "data": { "id": "PJ-seatcalculator->SKILL-hooks", "source": "SKILL-hooks", "target": "PJ-seatcalculator" }
     },
     {
         "data": {
-            "id": "STUDY-coreJs",
+            "id": "SKILL-coreJs",
             "url": "",
             "label": "코어 자바스크립트 정독"
         }
     },
     {
-        "data": { "id": "PJ-seatcalculator->STUDY-coreJs", "source": "STUDY-coreJs", "target": "PJ-seatcalculator" }
+        "data": { "id": "PJ-seatcalculator->SKILL-coreJs", "source": "SKILL-coreJs", "target": "PJ-seatcalculator" }
     },
     {
         "data": {
@@ -413,203 +338,203 @@
     },
     {
         "data": {
-            "id": "ISSUE-jsEventMiss",
+            "id": "SKILL-jsEventMiss",
             "url": "",
             "label": "javscript Event 중복 실행"
         }
     },
     {
-        "data": { "id": "PJ-boostCourse->ISSUE-jsEventMiss", "source": "ISSUE-jsEventMiss", "target": "PJ-boostCourse" }
+        "data": { "id": "PJ-boostCourse->SKILL-jsEventMiss", "source": "SKILL-jsEventMiss", "target": "PJ-boostCourse" }
     },
     {
         "data": {
-            "id": "STUDY-jsEventDelegation",
+            "id": "SKILL-jsEventDelegation",
             "url": "",
             "label": "Event Delegation 학습"
         }
     },
     {
-        "data": { "id": "ISSUE-jsEventMiss->STUDY-jsEventDelegation", "source": "STUDY-jsEventDelegation", "target": "ISSUE-jsEventMiss" }
+        "data": { "id": "SKILL-jsEventMiss->SKILL-jsEventDelegation", "source": "SKILL-jsEventDelegation", "target": "SKILL-jsEventMiss" }
     },
     {
         "data": {
-            "id": "STUDY-infinitySlide",
+            "id": "SKILL-infinitySlide",
             "url": "",
             "label": "무한 슬라이드 구현"
         }
     },
     {
-        "data": { "id": "PJ-boostCourse->STUDY-infinitySlide", "source": "STUDY-infinitySlide", "target": "PJ-boostCourse" }
+        "data": { "id": "PJ-boostCourse->SKILL-infinitySlide", "source": "SKILL-infinitySlide", "target": "PJ-boostCourse" }
     },
     {
         "data": {
-            "id": "ISSUE-springJson",
+            "id": "SKILL-springJson",
             "url": "",
             "label": "spirng에서 json 다루기"
         }
     },
     {
-        "data": { "id": "PJ-boostCourse->ISSUE-springJson", "source": "ISSUE-springJson", "target": "PJ-boostCourse" }
+        "data": { "id": "PJ-boostCourse->SKILL-springJson", "source": "SKILL-springJson", "target": "PJ-boostCourse" }
     },
     {
         "data": {
-            "id": "STUDY-jakcsonLibrary",
+            "id": "SKILL-jakcsonLibrary",
             "url": "",
-            "label": "jakcsonLibrary 활용"
+            "label": "jakcson"
         }
     },
     {
-        "data": { "id": "ISSUE-springJson->STUDY-jakcsonLibrary", "source": "STUDY-jakcsonLibrary", "target": "ISSUE-springJson" }
+        "data": { "id": "SKILL-springJson->SKILL-jakcsonLibrary", "source": "SKILL-jakcsonLibrary", "target": "SKILL-springJson" }
     },
     {
         "data": {
-            "id": "STUDY-springParam",
+            "id": "SKILL-springParam",
             "url": "",
             "label": "Spring에서 parameter 받는 법"
         }
     },
     {
-        "data": { "id": "ISSUE-springJson->STUDY-springParam", "source": "STUDY-springParam", "target": "ISSUE-springJson" }
+        "data": { "id": "SKILL-springJson->SKILL-springParam", "source": "SKILL-springParam", "target": "SKILL-springJson" }
     },
     {
         "data": {
-            "id": "STUDY-restController",
+            "id": "SKILL-restController",
             "url": "",
             "label": "Rest Controller 활용"
         }
     },
     {
-        "data": { "id": "STUDY-springParam->STUDY-restController", "source": "STUDY-restController", "target": "STUDY-springParam" }
+        "data": { "id": "SKILL-springParam->SKILL-restController", "source": "SKILL-restController", "target": "SKILL-springParam" }
     },
     {
         "data": {
-            "id": "ISSUE-login",
+            "id": "SKILL-login",
             "url": "",
             "label": "로그인 기능 구현"
         }
     },
     {
-        "data": { "id": "PJ-boostCourse->ISSUE-login", "source": "ISSUE-login", "target": "PJ-boostCourse" }
+        "data": { "id": "PJ-boostCourse->SKILL-login", "source": "SKILL-login", "target": "PJ-boostCourse" }
     },
     {
         "data": {
-            "id": "STUDY-session",
+            "id": "SKILL-session",
             "url": "",
             "label": "세션 학습"
         }
     },
     {
-        "data": { "id": "ISSUE-login->STUDY-session", "source": "STUDY-session", "target": "ISSUE-login" }
+        "data": { "id": "SKILL-login->SKILL-session", "source": "SKILL-session", "target": "SKILL-login" }
     },
     {
         "data": {
-            "id": "ISSUE-javaDate",
+            "id": "SKILL-javaDate",
             "url": "",
             "label": "java 날짜 데이터"
         }
     },
     {
-        "data": { "id": "PJ-boostCourse->ISSUE-javaDate", "source": "ISSUE-javaDate", "target": "PJ-boostCourse" }
+        "data": { "id": "PJ-boostCourse->SKILL-javaDate", "source": "SKILL-javaDate", "target": "PJ-boostCourse" }
     },
     {
         "data": {
-            "id": "STUDY-javaTime",
+            "id": "SKILL-javaTime",
             "url": "",
             "label": "java.time 패키지"
         }
     },
     {
-        "data": { "id": "ISSUE-javaDate->STUDY-javaTime", "source": "STUDY-javaTime", "target": "ISSUE-javaDate" }
+        "data": { "id": "SKILL-javaDate->SKILL-javaTime", "source": "SKILL-javaTime", "target": "SKILL-javaDate" }
     },
     {
         "data": {
-            "id": "ISSUE-jsThis",
+            "id": "SKILL-jsThis",
             "url": "",
             "label": "js 생성자 패턴 구현 중 this 오작동"
         }
     },
     {
-        "data": { "id": "PJ-boostCourse->ISSUE-jsThis", "source": "ISSUE-jsThis", "target": "PJ-boostCourse" }
+        "data": { "id": "PJ-boostCourse->SKILL-jsThis", "source": "SKILL-jsThis", "target": "PJ-boostCourse" }
     },
     {
         "data": {
-            "id": "STUDY-jsThisBind",
+            "id": "SKILL-jsThisBind",
             "url": "",
             "label": "js this와 bind 학습"
         }
     },
     {
-        "data": { "id": "ISSUE-jsThis->STUDY-jsThisBind", "source": "STUDY-jsThisBind", "target": "ISSUE-jsThis" }
+        "data": { "id": "SKILL-jsThis->SKILL-jsThisBind", "source": "SKILL-jsThisBind", "target": "SKILL-jsThis" }
     },
     {
         "data": {
-            "id": "ISSUE-logging",
+            "id": "SKILL-logging",
             "url": "",
             "label": "Logging 구현"
         }
     },
     {
-        "data": { "id": "PJ-boostCourse->ISSUE-logging", "source": "ISSUE-logging", "target": "PJ-boostCourse" }
+        "data": { "id": "PJ-boostCourse->SKILL-logging", "source": "SKILL-logging", "target": "PJ-boostCourse" }
     },
     {
         "data": {
-            "id": "STUDY-slf4jLogback",
+            "id": "SKILL-slf4jLogback",
             "url": "",
             "label": "SLF4J와 Logback 학습"
         }
     },
     {
-        "data": { "id": "ISSUE-logging->STUDY-slf4jLogback", "source": "STUDY-slf4jLogback", "target": "ISSUE-logging" }
+        "data": { "id": "SKILL-logging->SKILL-slf4jLogback", "source": "SKILL-slf4jLogback", "target": "SKILL-logging" }
     },
     {
         "data": {
-            "id": "ISSUE-springFile",
+            "id": "SKILL-springFile",
             "url": "",
             "label": "스프링 파일 처리"
         }
     },
     {
-        "data": { "id": "PJ-boostCourse->ISSUE-springFile", "source": "ISSUE-springFile", "target": "PJ-boostCourse" }
+        "data": { "id": "PJ-boostCourse->SKILL-springFile", "source": "SKILL-springFile", "target": "PJ-boostCourse" }
     },
     {
         "data": {
-            "id": "Study-imgAjax",
+            "id": "SKILL-imgAjax",
             "url": "",
             "label": "이미지 ajax 전송"
         }
     },
     {
-        "data": { "id": "ISSUE-springFile->Study-imgAjax", "source": "Study-imgAjax", "target": "ISSUE-springFile" }
+        "data": { "id": "SKILL-springFile->SKILL-imgAjax", "source": "SKILL-imgAjax", "target": "SKILL-springFile" }
     },
     {
         "data": {
-            "id": "Study-springFileSave",
+            "id": "SKILL-springFileSave",
             "url": "",
             "label": "스프링 파일 저장"
         }
     },
     {
-        "data": { "id": "ISSUE-springFile->Study-springFileSave", "source": "Study-springFileSave", "target": "ISSUE-springFile" }
+        "data": { "id": "SKILL-springFile->SKILL-springFileSave", "source": "SKILL-springFileSave", "target": "SKILL-springFile" }
     },
     {
         "data": {
-            "id": "Study-springFileDown",
+            "id": "SKILL-springFileDown",
             "url": "",
             "label": "스프링 파일 다운로드"
         }
     },
     {
-        "data": { "id": "ISSUE-springFile->Study-springFileDown", "source": "Study-springFileDown", "target": "ISSUE-springFile" }
+        "data": { "id": "SKILL-springFile->SKILL-springFileDown", "source": "SKILL-springFileDown", "target": "SKILL-springFile" }
     },
     {
         "data": {
-            "id": "Study-springFileResponse",
+            "id": "SKILL-springFileResponse",
             "url": "",
             "label": "저장한 파일 응답"
         }
     },
     {
-        "data": { "id": "Study-springFileSave->Study-springFileResponse", "source": "Study-springFileResponse", "target": "Study-springFileSave" }
+        "data": { "id": "SKILL-springFileSave->SKILL-springFileResponse", "source": "SKILL-springFileResponse", "target": "SKILL-springFileSave" }
     },
     {
         "data": {
@@ -620,73 +545,73 @@
     },
     {
         "data": {
-            "id": "ISSUE-react-hook",
+            "id": "SKILL-react-hook",
             "url": "",
             "label": "react-hook"
         }
     },
     {
-        "data": { "id": "PJ-ibkHr->ISSUE-react-hook", "source": "ISSUE-react-hook", "target": "PJ-ibkHr" }
+        "data": { "id": "PJ-ibkHr->SKILL-react-hook", "source": "SKILL-react-hook", "target": "PJ-ibkHr" }
     },
     {
         "data": {
-            "id": "ISSUE-mobx",
+            "id": "SKILL-mobx",
             "url": "",
             "label": "mobx"
         }
     },
     {
-        "data": { "id": "ISSUE-react-hook->ISSUE-mobx", "source": "ISSUE-mobx", "target": "ISSUE-react-hook" }
+        "data": { "id": "SKILL-react-hook->SKILL-mobx", "source": "SKILL-mobx", "target": "SKILL-react-hook" }
     },
     {
         "data": {
-            "id": "ISSUE-lombok",
+            "id": "SKILL-lombok",
             "url": "",
             "label": "lombok"
         }
     },
     {
-         "data": { "id": "PJ-ibkHr->ISSUE-lombok", "source": "ISSUE-lombok", "target": "PJ-ibkHr" }
+         "data": { "id": "PJ-ibkHr->SKILL-lombok", "source": "SKILL-lombok", "target": "PJ-ibkHr" }
     },
     {
          "data": {
-             "id": "ISSUE-JPA",
+             "id": "SKILL-JPA",
              "url": "",
              "label": "JPA"
          }
      },
      {
-         "data": { "id": "PJ-ibkHr->ISSUE-JPA", "source": "ISSUE-JPA", "target": "PJ-ibkHr" }
+         "data": { "id": "PJ-ibkHr->SKILL-JPA", "source": "SKILL-JPA", "target": "PJ-ibkHr" }
      },
      {
          "data": {
-             "id": "ISSUE-JAVA-Stream-API",
+             "id": "SKILL-JAVA-Stream-API",
              "url": "",
              "label": "JAVA Stream API"
          }
      },
      {
-         "data": { "id": "PJ-ibkHr->ISSUE-JAVA-Stream-API", "source": "ISSUE-JAVA-Stream-API", "target": "PJ-ibkHr" }
+         "data": { "id": "PJ-ibkHr->SKILL-JAVA-Stream-API", "source": "SKILL-JAVA-Stream-API", "target": "PJ-ibkHr" }
      },
      {
         "data": {
-            "id": "ISSUE-typescript",
+            "id": "SKILL-typescript",
             "url": "",
             "label": "typescript"
         }
     },
     {
-        "data": { "id": "PJ-ibkHr->ISSUE-typescript", "source": "ISSUE-typescript", "target": "PJ-ibkHr" }
+        "data": { "id": "PJ-ibkHr->SKILL-typescript", "source": "SKILL-typescript", "target": "PJ-ibkHr" }
     },
     {
         "data": {
-            "id": "ISSUE-axios",
+            "id": "SKILL-axios",
             "url": "",
             "label": "axios"
         }
     },
     {
-        "data": { "id": "PJ-ibkHr->ISSUE-axios", "source": "ISSUE-axios", "target": "PJ-ibkHr" }
+        "data": { "id": "PJ-ibkHr->SKILL-axios", "source": "SKILL-axios", "target": "PJ-ibkHr" }
     },
     {
         "data": {
