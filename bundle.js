@@ -118,12 +118,13 @@ fetch('./model/data.json', {
 
   var pageRank = cy_for_rank.elements().pageRank(); // elements들의 rank들입니다.
 
+  console.log('pageRank', pageRank);
   var nodeMaxSize = 50;
   var nodeMinSize = 5;
-  var nodeActiveSize = 28;
-  var fontMaxSize = 8;
-  var fontMinSize = 5;
-  var fontActiveSize = 7; // node & font 크기 값
+  var nodeActiveSize = 20;
+  var fontMaxSize = 10;
+  var fontMinSize = 8;
+  var fontActiveSize = 10; // node & font 크기 값
 
   var edgeWidth = '2px';
   var edgeActiveWidth = '4px';
@@ -149,15 +150,16 @@ fetch('./model/data.json', {
         'background-color': nodeColor,
         'label': 'data(label)',
         'width': function width(ele) {
-          return nodeMaxSize * pageRank.rank('#' + ele.id()) + nodeMinSize;
+          return nodeMaxSize * (pageRank.rank('#' + ele.id()) * 8) + nodeMinSize;
         },
         'height': function height(ele) {
-          return nodeMaxSize * pageRank.rank('#' + ele.id()) + nodeMinSize;
+          return nodeMaxSize * (pageRank.rank('#' + ele.id()) * 8) + nodeMinSize;
         },
         'font-size': function fontSize(ele) {
           return fontMaxSize * pageRank.rank('#' + ele.id()) + fontMinSize;
         },
-        'color': nodeColor
+        'color': nodeColor,
+        'text-wrap': 'wrap'
       }
     }, {
       selector: 'edge',
@@ -234,8 +236,8 @@ fetch('./model/data.json', {
     target_cy.nodes().forEach(function (target) {
       target.style('background-color', nodeColor);
       var rank = pageRank.rank(target);
-      target.style('width', nodeMaxSize * rank + nodeMinSize);
-      target.style('height', nodeMaxSize * rank + nodeMinSize);
+      target.style('width', nodeMaxSize * (rank * 8) + nodeMinSize);
+      target.style('height', nodeMaxSize * (rank * 8) + nodeMinSize);
       target.style('font-size', fontMaxSize * rank + fontMinSize);
       target.style('color', nodeColor);
       target.style('opacity', 1);
