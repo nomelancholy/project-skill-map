@@ -118,7 +118,6 @@ fetch('./model/data.json', {
 
   var pageRank = cy_for_rank.elements().pageRank(); // elements들의 rank들입니다.
 
-  console.log('pageRank', pageRank);
   var nodeMaxSize = 50;
   var nodeMinSize = 5;
   var nodeActiveSize = 20;
