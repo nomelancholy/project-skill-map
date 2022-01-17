@@ -2183,47 +2183,21 @@
     },
     {
         "data": {
-            "id": "PJ-openJustice",
-            "label": "Open Justice\n(20.08 ~ )"
+            "id": "PJ-fsfs",
+            "label": "Fast Five - Five Spot Project (21.06 ~ 21.11)"
         }
     },
     {
         "data": {
-            "id": "ETC-openJustice",
-            "label": "ETC"
+            "id": "REACT-fsfs",
+            "label": "REACT"
         }
     },
     {
         "data": {
-            "id": "PJ-openJustice->ETC-openJustice",
-            "source": "ETC-openJustice",
-            "target": "PJ-openJustice"
-        }
-    },
-    {
-        "data": {
-            "id": "FE-openJustice",
-            "label": "Front-End"
-        }
-    },
-    {
-        "data": {
-            "id": "PJ-openJustice->FE-openJustice",
-            "source": "FE-openJustice",
-            "target": "PJ-openJustice"
-        }
-    },
-    {
-        "data": {
-            "id": "BE-openJustice",
-            "label": "Front-End"
-        }
-    },
-    {
-        "data": {
-            "id": "PJ-openJustice->BE-openJustice",
-            "source": "BE-openJustice",
-            "target": "PJ-openJustice"
+            "id": "PJ-fsfs->ETC-fsfs",
+            "source": "REACT-fsfs",
+            "target": "PJ-fsfs"
         }
     }
 ]
